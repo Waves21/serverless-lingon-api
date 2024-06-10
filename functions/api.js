@@ -5,8 +5,8 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 
 const app = express();
-const dbCloudUrl = ''mongodb+srv://user1:test123@cluster0.ccomfh0.mongodb.net/user1';
-const dbLocalUrl = 'mongodb://localhost:27017/rayo.names'
+const dbCloudUrl = 'mongodb+srv://user1:test123@cluster0.ccomfh0.mongodb.net/user1';
+const dbLocalUrl = 'mongodb://localhost:27017/express-mongo-api'
 
 app.use(cors());
 app.use(express.json());
