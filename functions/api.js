@@ -6,7 +6,7 @@ const cors = require('cors');
 
 const app = express();
 const dbCloudUrl = 'mongodb+srv://rayo:Sekome123@cluster0.mns7uso.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
-const dbLocalUrl = 'mongodb://localhost:27017/express-mongo-api';
+const dbLocalUrl = 'mongodb://localhost:27017/rayo-serverless';
 
 app.use(cors());
 app.use(express.json());
