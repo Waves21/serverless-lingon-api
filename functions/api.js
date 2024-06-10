@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 
 const app = express();
-const dbCloudUrl = 'mongodb+srv://lykamurillo25:lymurillo_20@cluster0.ca6s9s5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
+const dbCloudUrl = 'mongodb+srv://rayo:<password>@cluster0.mns7uso.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0;
 const dbLocalUrl = 'mongodb://localhost:27017/rayo.names'
 
 app.use(cors());
